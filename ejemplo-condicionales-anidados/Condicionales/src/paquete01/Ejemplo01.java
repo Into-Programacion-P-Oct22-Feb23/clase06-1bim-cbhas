@@ -23,21 +23,21 @@ public class Ejemplo01 {
                 + "2. OR\n"
                 + "3. NOT");
         opcion = entrada.nextInt();
-        
+
         if (opcion > 0 && opcion <= 3) {
-            if (opcion==1) {
+            if (opcion == 1) {
                 System.out.printf("%s\n", "Trabajar con AND");
-                
-            }else{
-                if (opcion==2) {
+
+            } else {
+                if (opcion == 2) {
                     System.out.printf("%s\n", "Trabajar con OR");
-                }else{
+                } else {
                     // se asume opción = 3
                     // sería con NOT
                     System.out.printf("%s\n", "Trabajar con NOT");
                 }
             }
-        }else{
+        } else {
             System.out.printf("%s\n", "Opción inválida");
         }
 

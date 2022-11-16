@@ -17,11 +17,13 @@ public class Ejemplo01 {
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
         entrada.useLocale(Locale.US);
+
         int op;
         int valor1;
         int valor2;
         int resultado = 0;
         // 6.  Escribir "Ingrese el primer valor la operación"
+
         System.out.println("Ingrese el primer valor la operación");
         // 7.  Leer valor1
         valor1 = entrada.nextInt();

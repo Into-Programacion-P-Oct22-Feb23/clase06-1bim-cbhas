@@ -19,7 +19,7 @@ public class Ejemplo02 {
         Scanner entrada = new Scanner(System.in);
         // 1 es verdadero
         // 0 es falso
-        int a = 1; 
+        int a = 1;
         int b = 0;
         boolean resultado;
         boolean resultado2;
@@ -65,8 +65,8 @@ public class Ejemplo02 {
                         resultado2 = true;
                     }
                     System.out.printf("not a=%d resultado %s\n"
-                            + "not b=%d resultado %s\n", 
-                            a, 
+                            + "not b=%d resultado %s\n",
+                            a,
                             resultado,
                             b,
                             resultado2);
